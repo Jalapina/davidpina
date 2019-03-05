@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+  *::-webkit-scrollbar {
+    display: none; }
+
+body, html {
+  width: 100%;
+  color: #fff;
+  font-family: "Roboto Slab", serif; }
+
+header {
+  height: 10%;
+  background-color: #313131; }
+
+footer {
+  background-color: #222222; }
+  footer > p {
+    padding: 15px; }
+
+.name {
+  font-family: "Domine", serif;
+  padding: 10px;
+  font-size: 40px;
+  letter-spacing: 5px;
+  display: inline-block; }
+
+.options {
+  display: inline-block;
+  float: right;
+  margin: 15px;
+  cursor: pointer; }
+
+.svg-icon {
+  transition-duration: 500ms; }
+
+.rotate {
+  transform: rotate(90deg);
+  transition-duration: 500ms; }
+
+.container {
+  background-color: #222222; }
+
+.introduction {
+  background-image: linear-gradient(saddlebrown, #222);
+  text-align: center;
+  text-transform: capitalize; }
+  .introduction > h1 {
+    padding: 35px; }
+  .introduction > p {
+    padding: 20px;
+    width: 75%;
+    max-width: 700px;
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 1px solid #fff; }
+
+.projects {
+  text-align: center;
+  padding: 10px; }
+
+.contact {
+  padding: 10px; }
+  .contact .links {
+    cursor: pointer;
+    word-spacing: 15px; }
+
+.project {
+  background-color: sandybrown;
+  height: 270px;
+  width: 300px;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+  position: relative;
+  box-shadow: 0px 0px 15px -1px #fff; }
+
+.project:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  box-show: 0px 0px 15px 5px #607D8B;
+  z-index: 1; }
+  .project:hover .project-hyperlinks {
+    opacity: 0.8;
+    transition: 500ms; }
+
+.project-name {
+  font-size: 25px; }
+
+.showcase {
+  display: inline-block;
+  max-width: 800px;
+  padding: 10px; }
+
+.options-for-projects {
+  width: 100%;
+  position: absolute;
+  top: 90px; }
+
+.project-hyperlinks {
+  width: 40%;
+  margin: 5px auto;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #444242;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0; }
+
+/*# sourceMappingURL=index.css.map */
