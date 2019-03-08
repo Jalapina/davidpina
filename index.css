@@ -11,7 +11,8 @@ body, html {
 
 header {
   height: 10%;
-  background-color: #313131; }
+  background-color: #313131;
+  cursor: default; }
 
 footer {
   background-color: #222222; }
@@ -43,7 +44,7 @@ footer {
 .introduction {
   text-align: center;
   text-transform: capitalize;
-  background-image: url("downtown.jpeg");
+  background-image: url("meirl3.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   .introduction > h1 {
@@ -51,14 +52,16 @@ footer {
     font-family: "Modak", cursive;
     font-weight: 500;
     display: inline-block;
-    margin-top: 20px; }
+    margin-top: 20px;
+    cursor: default; }
   .introduction > p {
     padding: 20px;
     width: 75%;
     max-width: 700px;
     display: inline-block;
     font-size: 20px;
-    border-bottom: 1px solid #fff; }
+    border-bottom: 1px solid #fff;
+    cursor: default; }
   @media only screen and (max-width: 715px) {
     .introduction {
       background-image: url("me.jpg"); } }
@@ -66,6 +69,8 @@ footer {
 .projects {
   text-align: center;
   padding: 10px; }
+  .projects > h1 {
+    cursor: default; }
 
 .contact {
   padding: 10px; }
@@ -124,5 +129,19 @@ footer {
 
 .image {
   border: 15px solid #fff; }
+
+.skills {
+  text-align: center;
+  cursor: default; }
+  .skills > h2 {
+    padding: 15px;
+    letter-spacing: 10px; }
+
+.skill {
+  display: inline-block;
+  background-color: darkgrey;
+  width: 100px;
+  padding: 5px;
+  margin: 5px; }
 
 /*# sourceMappingURL=index.css.map */
