@@ -19,10 +19,9 @@ footer {
     padding: 15px; }
 
 .name {
-  font-family: "Domine", serif;
+  font-family: "Modak", cursive;
   padding: 10px;
   font-size: 40px;
-  letter-spacing: 5px;
   display: inline-block; }
 
 .options {
@@ -48,7 +47,11 @@ footer {
   background-repeat: no-repeat;
   background-size: cover; }
   .introduction > h1 {
-    padding: 35px; }
+    padding: 20px;
+    font-family: "Modak", cursive;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 20px; }
   .introduction > p {
     padding: 20px;
     width: 75%;
@@ -68,7 +71,8 @@ footer {
   padding: 10px; }
   .contact .links {
     cursor: pointer;
-    word-spacing: 15px; }
+    word-spacing: 15px;
+    outline: 0px; }
 
 .project {
   background-color: sandybrown;
@@ -99,9 +103,12 @@ footer {
   padding: 10px; }
 
 .options-for-projects {
-  width: 100%;
+  width: 60%;
   position: absolute;
-  top: 90px; }
+  top: 90px;
+  left: 0px;
+  margin: auto;
+  right: 0px; }
 
 .project-hyperlinks {
   width: 40%;
@@ -112,7 +119,8 @@ footer {
   cursor: pointer;
   text-decoration: none;
   color: #fff;
-  opacity: 0; }
+  opacity: 0;
+  display: inline-block; }
 
 .image {
   border: 15px solid #fff; }
