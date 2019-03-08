@@ -42,9 +42,11 @@ footer {
   background-color: #222222; }
 
 .introduction {
-  background-image: linear-gradient(saddlebrown, #222);
   text-align: center;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  background-image: url("downtown.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
   .introduction > h1 {
     padding: 35px; }
   .introduction > p {
@@ -54,6 +56,9 @@ footer {
     display: inline-block;
     font-size: 20px;
     border-bottom: 1px solid #fff; }
+  @media only screen and (max-width: 715px) {
+    .introduction {
+      background-image: url("me.jpg"); } }
 
 .projects {
   text-align: center;
@@ -68,7 +73,8 @@ footer {
 .project {
   background-color: sandybrown;
   height: 270px;
-  width: 300px;
+  max-width: 300px;
+  width: 80%;
   display: inline-block;
   margin: 20px;
   vertical-align: top;
@@ -90,7 +96,6 @@ footer {
 
 .showcase {
   display: inline-block;
-  max-width: 800px;
   padding: 10px; }
 
 .options-for-projects {
@@ -108,5 +113,8 @@ footer {
   text-decoration: none;
   color: #fff;
   opacity: 0; }
+
+.image {
+  border: 15px solid #fff; }
 
 /*# sourceMappingURL=index.css.map */
