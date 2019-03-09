@@ -139,9 +139,10 @@ footer {
 
 .skill {
   display: inline-block;
-  background-color: darkgrey;
-  width: 100px;
-  padding: 5px;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #728fbd;
   margin: 5px; }
 
 /*# sourceMappingURL=index.css.map */
