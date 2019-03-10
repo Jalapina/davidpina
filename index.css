@@ -132,7 +132,8 @@ footer {
 
 .skills {
   text-align: center;
-  cursor: default; }
+  cursor: default;
+  padding: 30px; }
   .skills > h2 {
     padding: 15px;
     letter-spacing: 10px; }
@@ -144,5 +145,31 @@ footer {
   padding: 10px;
   border: 1px solid #728fbd;
   margin: 5px; }
+
+.contact-me {
+  background-color: #3a3535;
+  text-align: center;
+  padding: 10px; }
+
+form {
+  width: 35%;
+  min-width: 350px;
+  margin: auto;
+  padding: 5px; }
+
+input[type=email], textarea {
+  padding: 12px;
+  border: 0px;
+  width: 85%;
+  resize: none;
+  margin: 2px; }
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=index.css.map */
