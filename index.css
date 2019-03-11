@@ -152,8 +152,7 @@ footer {
   padding: 10px; }
 
 form {
-  width: 35%;
-  min-width: 350px;
+  max-width: 500px;
   margin: auto;
   padding: 5px; }
 
