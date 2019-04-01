@@ -16,10 +16,8 @@ footer
     >p
         padding: 15px
 .name
-    font-family: 'Modak', cursive
-    padding: 10px
     font-size: 40px
-    display: inline-block
+    font-family: "Modak", cursive
 .options
     display: inline-block
     float: right
@@ -38,6 +36,11 @@ footer
     background-image: url("meirl3.jpg")
     background-repeat: no-repeat
     background-size: cover
+    @media only screen and (max-width: 715px)
+        background-image: url("me.jpg")
+.about-me
+    display: inline-block
+    max-width: 720px
     >h1
         padding: 20px
         font-family: "Modak", cursive
@@ -45,16 +48,15 @@ footer
         display: inline-block
         margin-top: 20px
         cursor: default
+        max-width: 700px
     >p
         padding: 20px
-        width: 75%
         max-width: 700px
         display: inline-block
         font-size: 20px
         border-bottom: 1px solid #fff
         cursor: default
-    @media only screen and (max-width: 715px)
-        background-image: url("me.jpg")
+
 .projects
     text-align: center
     padding: 10px
@@ -146,3 +148,29 @@ input[type=submit]
     border: none
     border-radius: 4px
     cursor: pointer
+.logo-name
+    height: 75px
+.hyperlink-to-blog
+    display: inline-block
+    width: 20%
+    text-align: right
+    font-family: "Modak", cursive
+    font-size: 25px
+.logo-container
+    display: inline-block
+    width: 75%
+.blog-container
+    background-color: #222222
+    height: 75%
+.three-cares
+    display: inline-block
+    background-color: #403430
+    border-radius: 20px
+    padding: 15px
+    border: 1px solid #ffffff
+    margin: 5px
+.i-care-about-statement
+    margin: 15px
+.how-i-am-dev
+    width: 90%
+    display: inline-block
