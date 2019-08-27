@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     var form_id = "contact-form";
     
         var data = {
@@ -8,19 +9,22 @@ $(document).ready(function(){
         var sendButton = $("#" + form_id + " [name='send']");
     
         function send() {
+
             sendButton.val('Sending…');
             sendButton.prop('disabled',true);
 
             var subject = $("#" + form_id + " [name='subject']").val();
             var message = $("#" + form_id + " [name='message']").val();
-            
+
             data['subject'] = subject;
             data['text'] = message;
 
             $.post('https://postmail.invotes.com/send',data, function(data){
                 sendButton.val('Sent');
-            })
+            });
+
             return false;
+
         }
     
         sendButton.on('click', send);

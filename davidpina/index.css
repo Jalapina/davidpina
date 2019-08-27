@@ -39,13 +39,35 @@ footer {
 
 .container {
   background-color: #222222; }
-
-.introduction {
+.introduction{
   text-align: center;
+  padding: 10px;
+}
+.my-info{
+  display: inline-block;
+  width: 47%;
+  text-align: center;
+}
+.my-image{
   text-transform: capitalize;
-  background-image: url("meirl3.jpg");
+  background-image: url("mexico_and_me.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: inherit;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  min-width: 300px;
+  height: 450px;
+}
+@media screen and (max-width: 950px) {
+  .my-image {
+    width: 100%;
+  }
+  .my-info{
+    width: 100%;
+  }
+}
 
 .about-me {
   display: inline-block;
