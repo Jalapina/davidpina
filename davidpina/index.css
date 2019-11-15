@@ -21,7 +21,7 @@ footer {
     padding: 15px; }
 
 .name {
-  font-size: 30px;
+  font-size: 20px;
   padding: 10px;
   display: inline-block;
   font-family: "Modak", cursive; }
@@ -97,11 +97,9 @@ footer {
     border-bottom: 1px solid #fff;
     cursor: default; }
 
-.projects {
-  text-align: center;
-  padding: 10px; }
-  .projects > h1 {
-    cursor: default; }
+.my-projects-title{
+  font-size: 30px;
+}
 
 .contact {
   padding: 15px;
@@ -110,14 +108,15 @@ footer {
  }
   .contact .links {
     cursor: pointer;
-    word-spacing: 15px;
-    outline: 0px; }
+    text-decoration: none;
+    outline: 0px; 
+    margin: 7px;
+  }
 
 .project {
-  max-width: 300px;
-  width: 80%;
+  width: 300px;
   display: inline-block;
-  margin: 30px;
+  margin: 15px;
   vertical-align: top;
   position: relative;
   box-shadow: 0px 0px 5px -1px #fff; }
@@ -135,11 +134,8 @@ footer {
     transition: 500ms; }
 
 .project-name {
-  font-size: 25px; }
-
-.showcase {
-  display: inline-block;
-  padding: 10px; }
+  font-size: 25px; 
+}
 
 .options-for-projects {
   width: 60%;
@@ -165,9 +161,12 @@ footer {
   text-align: center;
   cursor: default;
   padding: 30px; }
-  .skills > h2 {
-    padding: 15px;
-    letter-spacing: 10px; }
+  .skills > p:first-of-type {
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 6px; 
+  }
 
 .skill {
   display: inline-block;
@@ -209,21 +208,6 @@ input[type=submit] {
   font-family: "Modak", cursive;
   font-size: 25px; }
 
-.three-cares {
-  display: inline-block;
-  background-color: #403430;
-  border-radius: 20px;
-  padding: 15px;
-  border: 1px solid #ffffff;
-  margin: 5px; }
-
-.my-intro{
-  /* position: relative; */
-  /* width: 290px; */
-  /* display: inline-block; */
-  /* padding: 10px; */
-  /* right: 13%; */
-}
 .first-paragraph{
   font-size: 20px;
   max-width: 800px;
@@ -246,9 +230,17 @@ input[type=submit] {
   height: 500px;
   padding: 3px;
   background-image: url("color-spiral-me.jpeg");
-  background-size: cover;
+  background-size: 150% 100%;
 }
 .footer{
   font-size: 10px;
+}
+.my-blog{
+  font-size: 25px;
+  background: #525252;
+}
+.blog-hyper-link{
+  /* text-decoration: none; */
+  color: blanchedalmond;
 }
 /*# sourceMappingURL=index.css.map */
