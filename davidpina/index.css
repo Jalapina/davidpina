@@ -35,67 +35,14 @@ footer {
 .svg-icon {
   transition-duration: 500ms; }
 
-.rotate {
-  transform: rotate(90deg);
-  transition-duration: 500ms; }
-
 .container {
   background-color: #222222; }
+
 .introduction{
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  background: #000000;
 }
-.my-info{
-  display: inline-block;
-  width: 50%;
-  text-align: center;
-}
-.my-image{
-  display: inline-block;
-  vertical-align: top;
-  width: 45%;
-  height: 450px;
-}
-/* .image{
-  height: 400px;
-  width: 90%;
-  max-width: 500px;
-  border: 15px solid #fff;
-} */
-@media screen and (min-width: 950px) {
-  .first-paragraph{
-    text-align: center !important;
-  }
-  .second-paragraph{
-    left: 23% !important;
-    width: 360px !important;
-  }
-}
-@media screen and (min-width: 1000px){
-  .image{
-    background-size: 70% 100% !important;
-    background-position: center !important;
-  }
-}
-
-.about-me {
-  display: inline-block;
-  max-width: 720px; }
-  .about-me > h1 {
-    padding: 20px;
-    font-family: "Modak", cursive;
-    font-weight: 500;
-    display: inline-block;
-    margin-top: 20px;
-    cursor: default;
-    max-width: 700px; }
-  .about-me > p {
-    padding: 20px;
-    max-width: 700px;
-    display: inline-block;
-    font-size: 20px;
-    border-bottom: 1px solid #fff;
-    cursor: default; }
 
 .my-projects-title{
   font-size: 30px;
@@ -106,7 +53,7 @@ footer {
   float: right;
   display: inline-block;
  }
-  .contact .links {
+.contact .links {
     cursor: pointer;
     text-decoration: none;
     outline: 0px; 
@@ -120,6 +67,7 @@ footer {
   vertical-align: top;
   position: relative;
   box-shadow: 0px 0px 5px -1px #fff; }
+
 .description{
   padding: 10px;
 }
@@ -208,29 +156,18 @@ input[type=submit] {
   font-family: "Modak", cursive;
   font-size: 25px; }
 
-.first-paragraph{
-  font-size: 20px;
+.bio-paragraph{
+  font-size: 20px !important;
   max-width: 800px;
   display: inline-block;
-  text-align: left;
   padding: 10px;
 }
-.second-paragraph{
-  position: relative;
-  top: 35px;
-  left: 0%;
-  width: 300px;
-  padding: 2px;
-  font-size: 20px;
-  margin: 3px;
-  text-align: left;
-  color: beige;
-}
 .image{
-  height: 500px;
-  padding: 3px;
-  background-image: url("color-spiral-me.jpeg");
-  background-size: 150% 100%;
+  /* height: 500px; */
+  /* padding: 3px; */
+  background-image: url("seat.jpeg");
+  background-size: 120% 100%;
+  background-repeat: no-repeat;
 }
 .footer{
   font-size: 10px;
@@ -242,5 +179,36 @@ input[type=submit] {
 .blog-hyper-link{
   /* text-decoration: none; */
   color: blanchedalmond;
+}
+.projects{
+  text-align: center;
+}
+.intro{
+  height: 500px;
+}
+.intro-text{
+  padding-top: 230px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  color: #772aff;
+  font-size: 41px;
+}
+.intro-text-2{
+  color: #fff;
+  font-size: 40px;
+  word-spacing: 2px;
+  padding-top: 233px;
+}
+.bio{
+  text-align: center;
+  background: #525252;
+  padding: 35px;
+}
+@media screen and (min-width: 1000px){
+  .image{
+    background-size: 70% 100% !important;
+    background-position: center !important;
+  }
 }
 /*# sourceMappingURL=index.css.map */
