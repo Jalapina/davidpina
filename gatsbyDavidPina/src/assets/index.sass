@@ -1,0 +1,209 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+  *::-webkit-scrollbar {
+    display: none; }
+
+body, html {
+  width: 100%;
+  color: #fff;
+  font-family: "Roboto Slab", serif; }
+
+header {
+  height: 10%;
+  background-color: #313131;
+  cursor: default;
+ }
+
+footer {
+  background-color: #222222; }
+  footer > p {
+    padding: 15px; }
+
+.name {
+  font-size: 20px;
+  padding: 10px;
+  display: inline-block;
+  font-family: "Modak", cursive; }
+
+.options {
+  display: inline-block;
+  float: right;
+  margin: 15px;
+  cursor: pointer; }
+
+.svg-icon {
+  transition-duration: 500ms; }
+
+.container {
+  background-color: #222222; }
+
+.introduction{
+  text-align: center;
+  padding: 15px;
+  background: #000000;
+}
+
+.my-projects-title{
+  font-size: 30px;
+}
+
+.contact {
+  padding: 15px;
+  float: right;
+  display: inline-block;
+ }
+.contact .links {
+    cursor: pointer;
+    text-decoration: none;
+    outline: 0px; 
+    margin: 7px;
+  }
+
+.project {
+  width: 300px;
+  display: inline-block;
+  margin: 15px;
+  vertical-align: top;
+  position: relative;
+  box-shadow: 0px 0px 5px -1px #fff; }
+
+.description{
+  padding: 10px;
+}
+.project:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  box-show: 0px 0px 15px 5px #607D8B;
+  z-index: 1; }
+  .project:hover .project-hyperlinks {
+    opacity: 0.8;
+    transition: 500ms; }
+
+.project-name {
+  font-size: 25px; 
+}
+
+.options-for-projects {
+  width: 60%;
+  position: absolute;
+  top: 90px;
+  left: 0px;
+  margin: auto;
+  right: 0px; }
+
+.project-hyperlinks {
+  width: 40%;
+  margin: 5px auto;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #444242;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0;
+  display: inline-block; }
+
+.skills {
+  text-align: center;
+  cursor: default;
+  padding: 30px; }
+  .skills > p:first-of-type {
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 6px; 
+  }
+
+.skill {
+  display: inline-block;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #728fbd;
+  margin: 5px; }
+
+.contact-me {
+  background-color: #3a3535;
+  text-align: center;
+  padding: 10px; }
+
+form {
+  max-width: 500px;
+  margin: auto;
+  padding: 5px; }
+
+input[type=email], textarea {
+  padding: 12px;
+  border: 0px;
+  width: 85%;
+  resize: none;
+  margin: 2px; }
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.hyperlink-to-blog {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  font-family: "Modak", cursive;
+  font-size: 25px; }
+
+.bio-paragraph{
+  font-size: 20px !important;
+  max-width: 800px;
+  display: inline-block;
+  padding: 10px;
+}
+.image{
+  background-size: 120% 100%;
+  background-repeat: no-repeat;
+}
+.footer{
+  font-size: 10px;
+}
+.my-blog{
+  font-size: 25px;
+  background: #525252;
+}
+.blog-hyper-link{
+  color: blanchedalmond;
+}
+.projects{
+  text-align: center;
+}
+.intro{
+  height: 500px;
+}
+.intro-text{
+  padding-top: 230px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  color: #772aff;
+  font-size: 41px;
+}
+.intro-text-2{
+  color: #fff;
+  font-size: 40px;
+  word-spacing: 2px;
+  padding-top: 233px;
+}
+.bio{
+  text-align: center;
+  background: #525252;
+  padding: 35px;
+}
+@media screen and (min-width: 1000px){
+  .image{
+    background-size: 70% 100% !important;
+    background-position: center !important;
+  }
+}
