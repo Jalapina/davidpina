@@ -19,7 +19,14 @@
   display: inline-block;
   letter-spacing: 2px;
 }
-
+.conchas{
+  margin-bottom: 35px;
+  width: 100%;
+}
+.jalapina{
+  background: #fff;
+  border-radius: 5px;
+}
 .options {
   display: inline-block;
   margin: 15px;
@@ -248,13 +255,14 @@ input[type=submit] {
 }  
 .load-more-projects-button{
   padding: 15px;
+  font-family: plum;
   background: #000000;
   border-bottom: 1px solid purple;
 }
 .more-projects{
   overflow: hidden;
   height: 0px;
-  background: #551a8b;
+  background: #000000;
   font-size: 1em;
 }
 .more-projects .project{

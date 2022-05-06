@@ -89,14 +89,14 @@ return(
         </div>
 
         <div class="contact-wrapper">
-            <div className="social-media-wrapper">
-                <a class="links" href="https://github.com/Jalapina" title="github">
-                    <Image filename="github-logo-silhouette-in-a-square.png"/>
+            <div className="social-media-wrapper jalapina">
+                <a class="links" href="https://www.youtube.com/channel/UCcXwNOc2qDlk043kJfbKPgA" title="youtube">
+                    <Image filename="youtube.png"/>
                 </a>
             </div>
             <div className="social-media-wrapper">
-                <a class="links" href="https://www.instagram.com/jalapina96/" title="instagram">
-                    <Image filename="instagram.png"/>
+                <a class="links" href="https://github.com/Jalapina" title="github">
+                    <Image filename="github-logo-silhouette-in-a-square.png"/>
                 </a>
             </div>
             <div className="social-media-wrapper">
@@ -104,14 +104,43 @@ return(
                     <Image filename="linkedin.png"/>
                 </a>
             </div>
+            <div className="social-media-wrapper jalapina">
+                <a class="links" href="https://www.jalapina.com/" title="jalapina">
+                    <Image filename="jalapeno.png"/>
+                </a>
+            </div>
         </div>
 
         <div className="projects">
             <h2 className="my-projects-title">My Projects</h2>
+
+            <div className="project">
+                <h3>Crypto Conchas</h3>
+                <div className="description conchas desktop">
+                    <p>Limited collection of concha NFT's running on the Solana devnet</p>
+                    <a href="https://cryptoconchas.com">
+                        <button className="website-link-button">
+                            Go to Website
+                        </button>
+                    </a>
+                </div>
+                <div className="project-image-wrapper">
+                    <Image loading="lazy" filename="cryptoconchas-macbook-mockup.png" alt="Tony's Website" height="270px" width="100%"/>
+                </div>
+                <div className="description mobile">
+                    <p> NFT collection of conchas (Mexican style bread) running on the Solana devnet</p>
+                    <a href="https://cryptoconchas.com">
+                        <button className="website-link-button">
+                            Go to Website
+                        </button>
+                    </a>
+                </div>
+            </div>
+
             <div className="project">
                 <h3>Doughballs Pizza</h3>
                 <div className="description">
-                    <p>Aurora IL, Pizza show website</p>
+                    <p>Pizza shop website</p>
                     <a href="https://doughballspizzas.com">
                         <button className="website-link-button">
                             Go to Website
@@ -123,6 +152,7 @@ return(
                 </div>
 
             </div>
+            
             <div className="project">
                 <h3>Tonys Sewer Drain</h3>
                 <div className="description desktop">
@@ -137,7 +167,7 @@ return(
                     <Image loading="lazy" filename="tony-mockup.png" alt="Tony's Website" height="270px" width="100%"/>
                 </div>
                 <div className="description mobile">
-                    <p>Aurora IL, Sewer business</p>
+                    <p>Sewer and plumbing business</p>
                     <a href="https://tonysdrain-ef299.web.app/">
                         <button className="website-link-button">
                             Go to Website
@@ -149,7 +179,7 @@ return(
             <div className="project">
                 <h3>Dark Horse Grill and catering</h3>
                 <div className="description">
-                    <p>Aurora IL, Catering</p>
+                    <p>Food catering business</p>
                     <a href="https://darkhorsegrillandcatering.com/">
                         <button className="website-link-button">
                             Go to Website
@@ -189,7 +219,7 @@ return(
                 <h3>Home Rehab Consulting</h3>
 
                 <div className="description">
-                    <p>Aurora IL, Home Rehabing consulting</p>
+                    <p>Home flipping consulting</p>
                     <a href="https://homerehabconsulting.com/">
                         <button className="website-link-button">
                             Go to Website
@@ -202,6 +232,32 @@ return(
                 </div>
 
             </div>
+
+
+            <div className="project">
+                <h3>Wavpoint</h3>
+                <div className="description conchas desktop">
+                    <p>Up and coming artist staic website</p>      
+                    <a href="https://wavpoint.co">
+                        <button className="website-link-button">
+                            Go to Website
+                        </button>              
+                    </a>
+                </div>
+                <div className="project-image-wrapper">
+                    <Image loading="lazy" filename="wavpoint-iphone-mockup.png" alt="Tony's Website" height="270px" width="100%"/>
+                </div>
+                <div className="description mobile">
+                    <p>Aurora up and coming artist staic website</p>      
+                    <a href="https://wavpoint.co">
+                        <button className="website-link-button">
+                            Go to Website
+                        </button>              
+                    </a>
+                </div>
+            </div>
+
+
         </div>
 
         <div className="load-more-projects-button">
@@ -219,7 +275,7 @@ return(
                 </div>
                 <div className="description">
                     <p>Clock in app that allows users to clock in from anywhere via geolocation and image upload</p>
-                    <p>Users total hours are calculated depending on their hourly wage and each location has total hours spent on that location</p>
+                    <p>User total hours are calculated along with their hourly wage on each location</p>
                 </div>
             </div>
 
@@ -229,7 +285,7 @@ return(
                     <div className="preview">
                         <a href="https://github.com/Jalapina/friendZone">github</a>
                     </div>
-                    <p>Tinder like clone using Angular 4, NodeJs, Express, and MongoDB</p>
+                    <p>Tinder like clone that allows users to find new friends around their area</p>
                 </div>
                 <div className="project-image-wrapper">
                     <img src="https://user-images.githubusercontent.com/26069518/53443815-21883200-39d2-11e9-94c1-b2c5abb916d0.gif" alt="friendZone gif" height="270px" width="100%" loading="lazy" />
@@ -298,12 +354,11 @@ return(
             <p class="skill">JavaScript</p>
             <p class="skill">Ruby</p>
             <p class="skill">Python</p>
-            <p class="skill">NodeJs</p>
+            <p class="skill">Node</p>
             <p class="skill">Express</p>
-            <p class="skill">AngularJS/2+</p>
+            <p class="skill">Angular</p>
             <p class="skill">React</p>
             <p class="skill">Gatsby</p>
-            <p class="skill">React</p>
             <p class="skill">HTML</p>
             <p class="skill">CSS</p>
             <p class="skill">SASS</p>
@@ -312,14 +367,14 @@ return(
             <p class="skill">jQuery</p>
             <p class="skill">AWS</p>
             <p class="skill">Firebase</p>
-            <p class="skill">Git/GitHub</p>
+            <p class="skill">Git</p>
             <p class="skill">MySQL</p>
             <p class="skill">MongoDB</p>
             <p class="skill">Photoshop</p>
             <p class="skill">Adobe Premiere</p>
-            <p class="skill">Truffle</p>
-            <p class="skill">ERC-721</p>
+            <p class="skill">Solana metaplex</p>
             <p class="skill">Blockchain</p>
+            <p class="skill">Solidity</p>
             <p class="skill">Photography</p>
         </div>
 

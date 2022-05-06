@@ -7,7 +7,7 @@ import "../assets/footer.sass"
 const Footer = ({ siteTitle }) => (
   <footer>
     <div className="footer-wrapper">
-        <p class="footer">Made by David Pina ©2019</p>
+        <p class="footer">David Pina ©2019</p>
     </div>
     <div class="contact">
         <div className="social-media-wrapper">
@@ -16,13 +16,18 @@ const Footer = ({ siteTitle }) => (
             </a>
         </div>
         <div className="social-media-wrapper">
-            <a class="links" href="https://www.instagram.com/jalapina96/" title="instagram">
-                <Image filename="instagram.png"/>
-            </a>
-        </div>
-        <div className="social-media-wrapper">
             <a class="links" href="https://www.linkedin.com/in/david-pina-8a46128a/" title="linkedin">
                 <Image filename="linkedin.png"/>
+            </a>
+        </div>
+        <div className="social-media-wrapper jalapina">
+            <a class="links" href="https://www.jalapina.com/" title="jalapina">
+                <Image filename="jalapeno.png"/>
+            </a>
+        </div>
+        <div className="social-media-wrapper jalapina">
+            <a class="links" href="https://www.youtube.com/channel/UCcXwNOc2qDlk043kJfbKPgA" title="youtube">
+                <Image filename="youtube.png"/>
             </a>
         </div>
     </div>
